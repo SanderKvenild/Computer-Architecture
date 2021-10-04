@@ -11,7 +11,10 @@
 <body>
     <h1>Grafikkprosessor (GPU)</h1>
     <p>
-        Grafikkprosessoren er en dedikert prosessor kun for grafikk og lignende utregninger. Disse prosessorene kan kun utføre et begrenset set med utregninger, men er ekstremt raske på disse. Typisk måles hastigheten på disse i floating-point operations per sekund, forkortet til FLOPS.
+        Grafikkprosessoren er en dedikert prosessor kun for grafikk og lignende utregninger. Disse prosessorene kan kun utføre et begrenset set med utregninger, men er ekstremt raske på disse. Typisk måles hastigheten på disse i floating-point operations per sekund, forkortet til FLOPS, og moderne grafikkprosessorer kan gjøre flere billioner (10<sup>12</sup>) FLOPS eller TFLOPS. For å få til dette har de ekstremt mange kjerner, men store grupper av disse kan ikke jobbe på forskjellige typer oppgaver. For eksempel kan ikke en gruppe jobbe med både addisjon og multiplikasjon samtidig. Nvidia kaller disse gruppene "CUDA Cores", AMD kaller dem "Stream Processors", men disse er ikke sammenlignbare når det kommer til ytelse.
+    </p>
+    <p>
+        I nyere tid har grafikkprosessorer begynt å utføre flere oppgaver som ikke nødvendigvis har en direkte kobling til grafikk. For eksempel blir de brukt til maskinlæring, hvor ganging og addisjon av float-tall er hovedprosessen. Nye grafikkprosessorer kommer nå med maskinvare dedikert til maskinlæring, og dette gjør dem mye raskere på dette.
     </p>
 </body>
 </html>
